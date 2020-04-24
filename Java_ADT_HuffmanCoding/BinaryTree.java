@@ -71,5 +71,9 @@ public class BinaryTree<K extends Comparable<K>> implements BinaryTreeInterface<
 		return (root.data).compareTo(tree.getRootData());
 	}
 
+	public BinaryTree<K> asBinaryTree(){
+		return this;
+	}
+
 
 }

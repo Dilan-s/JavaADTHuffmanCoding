@@ -13,4 +13,6 @@ public interface BinaryTreeInterface<K extends Comparable<K>> extends Comparable
 	public BinaryTreeInterface<K> getRightSubtree();
 	// return right subtree
 
+	public BinaryTree<K> asBinaryTree();
+
 }
